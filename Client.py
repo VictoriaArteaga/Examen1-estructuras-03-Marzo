@@ -5,3 +5,6 @@ class Client:
         self.phone = phone
         self.address = address
         self.clientId = clientId
+
+    def __str__(self):
+        return f"{self.name} (ID: {self.clientId})"

@@ -8,4 +8,5 @@ class Product:
         self.price = price 
         self.category = category
 
-    
+    def __str__(self):
+        return f"{self.name} - ${self.price} ({self.category.name})"

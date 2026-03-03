@@ -3,7 +3,7 @@ from Order import Order
 class OrderManager:
 
     def __init__(self):
-        self.orderManager = []
+        self.queueOrders = []
 
     def addOrder(self, order):
         self.queueOrders.append(order)
